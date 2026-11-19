@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="cluck798">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B10"/>
+      <stop offset="0.6" stop-color="#0B1117"/>
+      <stop offset="1" stop-color="#0D1A1F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3DE1A0"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="word" x1="104" y1="80" x2="400" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBF8"/>
+      <stop offset="1" stop-color="#A9DFC9"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientTransform="translate(1000 150) rotate(90) scale(200)">
+      <stop stop-color="#3DE1A0" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3DE1A0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(1140 30) rotate(90) scale(170)">
+      <stop stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#15212B" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="300" fill="url(#glowGreen)"/>
+  <rect width="1200" height="300" fill="url(#glowBlue)"/>
+  <rect x="1.5" y="1.5" width="1197" height="297" rx="20" stroke="#1B2732" stroke-width="1.5"/>
+
+  <rect x="80" y="72" width="6" height="72" rx="3" fill="url(#accent)"/>
+  <text x="104" y="136" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="78" font-weight="700" letter-spacing="-2" fill="url(#word)">cluck</text>
+  <text x="104" y="180" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',sans-serif" font-size="21" fill="#8FA3B2">兴趣使然 · 独立开发者</text>
+
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="13.5">
+    <rect x="104" y="206" width="96" height="34" rx="17" fill="#0C1319" stroke="#1E2B36"/>
+    <text x="152" y="228" text-anchor="middle" letter-spacing="1" fill="#9FB3C2">ZEEHO</text>
+    <rect x="212" y="206" width="158" height="34" rx="17" fill="#0C1319" stroke="#1E2B36"/>
+    <text x="291" y="228" text-anchor="middle" letter-spacing="0.5" fill="#9FB3C2">EV Diagnostics</text>
+    <rect x="382" y="206" width="196" height="34" rx="17" fill="#0C1319" stroke="#1E2B36"/>
+    <text x="480" y="228" text-anchor="middle" letter-spacing="0.5" fill="#9FB3C2">BLE · RS485 · CAN</text>
+    <rect x="590" y="206" width="96" height="34" rx="17" fill="#0C1319" stroke="#1E2B36"/>
+    <text x="638" y="228" text-anchor="middle" letter-spacing="1" fill="#9FB3C2">ESP32</text>
+  </g>
+
+  <g stroke-linecap="round">
+    <circle cx="985" cy="150" r="100" stroke="#1E2B36" stroke-width="1.5"/>
+    <circle cx="985" cy="150" r="96" stroke="#3DE1A0" stroke-opacity="0.28" stroke-width="8" stroke-dasharray="5 13"/>
+    <circle cx="985" cy="150" r="78" stroke="#1E2B36" stroke-width="1.5"/>
+    <circle cx="985" cy="150" r="62" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="2 9"/>
+    <circle cx="985" cy="150" r="42" fill="#0C141A" stroke="#22303C" stroke-width="1.5"/>
+    <circle cx="985" cy="150" r="16" stroke="#3DE1A0" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle cx="985" cy="150" r="5" fill="#3DE1A0"/>
+    <path d="M985 50 A100 100 0 0 1 1085 150" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M885 150 A100 100 0 0 0 985 250" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="985" y1="36" x2="985" y2="28" stroke="#3DE1A0" stroke-opacity="0.7" stroke-width="2"/>
+    <line x1="1099" y1="150" x2="1107" y2="150" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="2"/>
+    <line x1="985" y1="264" x2="985" y2="272" stroke="#1E2B36" stroke-width="2"/>
+    <line x1="871" y1="150" x2="863" y2="150" stroke="#1E2B36" stroke-width="2"/>
+  </g>
+
+  <g fill="none" stroke="#1B2732" stroke-width="1.5">
+    <path d="M770 96 H850 V120"/>
+    <path d="M780 226 H860 V198"/>
+  </g>
+  <circle cx="770" cy="96" r="3" fill="#38BDF8" fill-opacity="0.75"/>
+  <circle cx="780" cy="226" r="3" fill="#3DE1A0" fill-opacity="0.75"/>
+
+  <text x="985" y="286" text-anchor="middle" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="10" letter-spacing="3" fill="#3A4A57">ABS TONE RING · 48T</text>
+</svg>
